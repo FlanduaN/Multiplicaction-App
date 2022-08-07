@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(47, 96, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form {
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 162, 255, 0.8);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.score {
+    color: rgb(24, 182, 24);
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: solid 3px rgb(67, 175, 211);
+    border-radius: 10px;
+}
+
+.input::placeholder {
+    color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn {
+    background-color: aqua;
+    color: black;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(0.7);
+}
